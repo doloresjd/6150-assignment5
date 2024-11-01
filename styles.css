@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.register-banner {
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    justify-content: flex-start; 
+    width: 100%; 
+    margin-bottom: 20px; 
+    margin-left: 0; 
+}
+
+.logo {
+    width: 200px; 
+    margin-bottom: 20px; 
+}
+
+.pizza-image {
+    width: 60%; 
+    height: 390px; 
+    object-fit: cover;
+    margin-right: auto; 
+    margin-left: 0;   
+}
+
+.special-text {
+    width: 80%;
+    font-family: Arial, sans-serif; 
+    color: black;
+    font-size: 30px; 
+    text-align: left; 
+    padding: 10px;
+    background-color: #f7f7f7; 
+    border-radius: 8px; 
+    line-height: 40px;
+}
+
+.special-text h1 {
+    font-size: 24px;  
+}
+
+.special-text p {
+    font-size: 18px;  
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label[for="yearOfBirth"] {
+    margin-top: 20px; 
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+#zipcodeWrapper {
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+legend {
+    padding: 0 10px;
+    width: auto;
+}
+
+#errorMessages {
+    color: red;
+    margin-top: 20px;
+}
+
+
+
